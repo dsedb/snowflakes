@@ -46,7 +46,7 @@ public class Snow : MonoBehaviour
 			uvs_ [i*4+3] = new Vector2 (1f, 1f);
 		}
 		Mesh mesh = new Mesh ();
-		mesh.name = "MeshRainDrops";
+		mesh.name = "MeshSnowFlakes";
 		mesh.vertices = vertices_;
 		mesh.triangles = triangles_;
 		mesh.uv = uvs_;
